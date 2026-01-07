@@ -1,0 +1,35 @@
+{
+  "name": "doyu-schedule",
+  "version": "1.0.0",
+  "description": "島根県同友会スケジュール統合システム - e-doyuからiCal形式への変換",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "schedule",
+    "ical",
+    "doyu",
+    "calendar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "basic-ftp": "^5.0.5",
+    "bcrypt": "^6.0.0",
+    "cheerio": "^1.1.2",
+    "cookie-parser": "^1.4.7",
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "ical-generator": "^10.0.0",
+    "node-cron": "^4.2.1",
+    "puppeteer": "^24.34.0",
+    "winston": "^3.19.0"
+  }
+}
